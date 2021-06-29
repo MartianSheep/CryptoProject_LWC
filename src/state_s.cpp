@@ -227,7 +227,7 @@ void state_s::CipherProcess(string Cipher){
 	}
 	if(Cipher.size() >= 16){
 		int current_size = Cipher.size() - 16;
-		while(Cipher.size() <= 32)
+		while(Cipher.size() < 32)
 			Cipher.push_back('0');
 		uint64_t a0, a1, padding_mask;
 		stringstream ss0, ss1;
@@ -246,26 +246,26 @@ void state_s::CipherProcess(string Cipher){
 		cipher += tmp0 + tmp1;
 		// last padding
 		x0 = a0;
-		stringstream sstmp;
+		stringstream sstmp0, sstmp1;
 		string padding_tmp = "";
 		for(int i = 0; i < current_size; ++i)
 			padding_tmp.push_back('0');
 		while(padding_tmp.size() < 16)
 			padding_tmp.push_back('F');
-		sstmp << hex << padding_tmp;
-		sstmp >> padding_mask;
+		sstmp0 << hex << padding_tmp;
+		sstmp0 >> padding_mask;
 		x1 &= padding_mask;
 		x1 |= a1;
 		padding_tmp = "8";
 		for(int i = 0; i < 15 - current_size; ++i)
 			padding_tmp.push_back('0');
-		sstmp << hex << padding_tmp;
-		sstmp >> a1;
+		sstmp1 << hex << padding_tmp;
+		sstmp1 >> a1;
 		x1 ^= a1;
 	}
 	else{
 		int current_size = Cipher.size();
-		while(Cipher.size() <= 16)
+		while(Cipher.size() < 16)
 			Cipher.push_back('0');
 		uint64_t a0, padding_mask;
 		stringstream ss0;
@@ -279,21 +279,21 @@ void state_s::CipherProcess(string Cipher){
 		tmp0 = tmp0.substr(0, current_size);
 		cipher += tmp0;
 		// last padding
-		stringstream sstmp;
+		stringstream sstmp0, sstmp1;
 		string padding_tmp = "";
 		for(int i = 0; i < current_size; ++i)
 			padding_tmp.push_back('0');
 		while(padding_tmp.size() < 16)
 			padding_tmp.push_back('F');
-		sstmp << hex << padding_tmp;
-		sstmp >> padding_mask;
+		sstmp0 << hex << padding_tmp;
+		sstmp0 >> padding_mask;
 		x0 &= padding_mask;
 		x0 |= a0;
 		padding_tmp = "8";
 		for(int i = 0; i < 15 - current_size; ++i)
 			padding_tmp.push_back('0');
-		sstmp << hex << padding_tmp;
-		sstmp >> a0;
+		sstmp1 << hex << padding_tmp;
+		sstmp1 >> a0;
 		x0 ^= a0;
 	}
 }

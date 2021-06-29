@@ -130,8 +130,13 @@ int main(int argc, char **argv){
 
 		// print
 		cout << "Plaintext: " << S.GetCipher() << endl;
-		// cout << "Tag:" << S.GetTag() << endl;
-		// a bit strange
+		cout << "Tag:" << S.GetTag() << endl;
+		string gettag = S.GetTag();
+		for (auto & c: gettag) c = (char)toupper(c);
+		if(gettag == Tag)
+			cout << "Same tag, valid" << endl;
+		else
+			cout << "Different tag, invalid" << endl;
 	}
 
 	return 0;
