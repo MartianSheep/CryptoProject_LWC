@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : ascon_enc
+Version: R-2020.09-SP5
+Date   : Sun Jun 20 21:18:10 2021
+****************************************
+
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db)
+
+Number of ports:                          550
+Number of nets:                          7989
+Number of cells:                         7163
+Number of combinational cells:           6660
+Number of sequential cells:               503
+Number of macros/black boxes:               0
+Number of buf/inv:                       1142
+Number of references:                     133
+
+Combinational area:              92080.554809
+Buf/Inv area:                     8761.978767
+Noncombinational area:           18160.482410
+Macro/Black Box area:                0.000000
+Net Interconnect area:          716523.625702
+
+Total cell area:                110241.037219
+Total area:                     826764.662921
+1

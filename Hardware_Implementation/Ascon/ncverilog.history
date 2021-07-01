@@ -1,0 +1,51 @@
+s1(20Jun2021:15:24:40):  ncverilog ascon_1.v 
+s2(20Jun2021:15:24:54):  ncverilog ascon_1.v 
+s3(20Jun2021:15:25:23):  ncverilog ascon_1.v 
+s4(20Jun2021:15:26:30):  ncverilog ascon_1.v 
+s5(20Jun2021:15:27:11):  ncverilog ascon_1.v 
+s6(20Jun2021:15:28:05):  ncverilog ascon_1.v 
+s7(20Jun2021:15:28:27):  ncverilog ascon_1.v 
+s8(20Jun2021:15:29:12):  ncverilog ascon_1.v 
+s9(20Jun2021:16:54:22):  ncverilog ascon_tb.v 
+s10(20Jun2021:16:54:35):  ncverilog ascon_tb.v 
+s11(20Jun2021:16:55:01):  ncverilog ascon_tb.v 
+s12(20Jun2021:16:55:09):  ncverilog ascon_tb.v ascon_1.v 
+s13(20Jun2021:16:55:19):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s14(20Jun2021:16:59:34):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s15(20Jun2021:17:00:51):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s16(20Jun2021:17:10:56):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s17(20Jun2021:17:13:16):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s18(20Jun2021:17:14:14):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s19(20Jun2021:17:15:15):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s20(20Jun2021:17:19:23):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s21(20Jun2021:17:22:46):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s22(20Jun2021:17:30:04):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s23(20Jun2021:17:49:01):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s24(20Jun2021:17:51:20):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s25(20Jun2021:17:51:25):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s26(20Jun2021:18:01:48):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s27(20Jun2021:18:04:25):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s28(20Jun2021:18:07:24):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s29(20Jun2021:18:45:11):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s30(20Jun2021:18:50:42):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s31(20Jun2021:18:52:29):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s32(20Jun2021:18:58:26):  ncverilog ascon_tb.v ascon_1.v +accss+r 
+s33(20Jun2021:18:58:53):  ncverilog ascon_tb.v ascon_1.v +accss+r 
+s34(20Jun2021:18:59:20):  ncverilog ascon_tb.v ascon_1.v +accss+r 
+s35(20Jun2021:18:59:26):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s36(20Jun2021:19:13:40):  ncverilog ascon_tb.v ascon_1.v +accss+r 
+s37(20Jun2021:19:13:48):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s38(20Jun2021:19:15:38):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s39(20Jun2021:20:04:04):  ncverilog ascon_tb.v ascon_1.v 
+s40(20Jun2021:20:04:12):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s41(20Jun2021:20:04:55):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s42(20Jun2021:20:09:04):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s43(20Jun2021:20:11:28):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s44(20Jun2021:20:11:43):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s45(21Jun2021:14:59:50):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s46(21Jun2021:15:03:20):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s47(21Jun2021:15:03:39):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s48(21Jun2021:15:03:53):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s49(29Jun2021:14:41:37):  ncverilog ascon_1.v ascon_tb.v +access+r 
+s50(29Jun2021:14:41:50):  ncverilog ascon_tb.v ascon_1.v +access+r 
+s51(29Jun2021:14:43:37):  ncverilog ascon_tb.v ascon_1.v +access+r 

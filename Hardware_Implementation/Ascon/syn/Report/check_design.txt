@@ -1,0 +1,21 @@
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09-SP5
+Date:        Sun Jun 20 21:13:14 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               7
+    Cells do not drive (LINT-1)                                     7
+--------------------------------------------------------------------------------
+
+Warning: In design 'ascon_enc', cell 'C11800' does not drive any nets. (LINT-1)
+Warning: In design 'ascon_enc', cell 'C11812' does not drive any nets. (LINT-1)
+Warning: In design 'ascon_enc', cell 'C11817' does not drive any nets. (LINT-1)
+Warning: In design 'ascon_enc', cell 'C11957' does not drive any nets. (LINT-1)
+Warning: In design 'ascon_enc', cell 'C12053' does not drive any nets. (LINT-1)
+Warning: In design 'ascon_enc', cell 'C12054' does not drive any nets. (LINT-1)
+Warning: In design 'ascon_enc', cell 'C12055' does not drive any nets. (LINT-1)
+1
